@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- je mets un titre pour ma page -->
+    <title>Learning</title>
+    <!-- je mets un logo pour l'onglet -->
+    <link rel="shortcut icon" href="logo-2582748_960_720.webp">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Text - Titre H1</h1>
+            <p>Text basique, <em>voici un texte en italique.</em> <strong>et ce text est en gras</strong> <span>l'element en span ne reviens pas a la ligne</span></p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed vero aliquid veniam fugit recusandae molestias a, deserunt nam. Tenetur cum saepe culpa animi, ipsam nulla enim deserunt doloribus non amet.</p>
+    
+        </div>
+    </header>
+    <section>
+        
+        <div>
+            <h2>Photos - Titre H2</h2>
+            <img src="qst.PNG" height="200" alt="questinnement">
+    
+        </div>
+        <div>
+            <h3>Listes - Titre H3</h3>
+            <ul>
+                <li>UL = unordered list</li>
+                <li>UL = unordered list</li>
+                <li>UL = unordered list</li>
+            </ul>
+            <ol>
+                <li>OL = ordered list</li>
+                <li>OL = ordered list</li>
+                <li>OL = ordered list</li>
+            </ol>
+         
+    
+        </div>
+        <div>
+            <h4>Tableau - Titre H4</h4>
+            <table border="1" width="50%"> 
+                <caption>population d'afrique</caption>
+                <thead>
+                    <th>pays</th>
+                    <th>population</th>
+                </thead>
+                <body>
+                    <tr>
+                        <td>algerie
+                            <td>40millions</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>tunisie
+                            <td>20millions</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>maroc
+                            <td>30millions</td>
+                        </td>
+                    </tr>
+                </body>
+            </table>
+    
+        </div>
+        <div>
+            <h5>Liens - titre h5</h5>
+            <a href="https://htmlcheatsheet.com/" target="_blank">site de html cheat sheet</a>
+            <br>
+            <a href="https://google.com/" target="_blank">site de google</a>
+        </div>
+        <div>
+            <h6>Video - titre h6</h6>
+            <video src="codes_-_23355 (540p).mp4" height="300" autoplay loop muted></video>
+
+        </div>
+    </section>
+    <br>
+    <section>
+        <h2>Formulaire</h2>
+        <form action="/action.php" method="post">
+            <label for="name">Nom :</label><input id="name" type="text" placeholder="Entrez votre nom">
+        </form>
+        <br>
+        <form action="/action.php" method="post">
+            <label for="surname">Prénom :</label><input id="surname" type="text" placeholder="Entrez votre Prénom">
+        </form>
+        <br>
+        <form action="/action.php" method="post">
+            <label for="age">Age :</label><input id="age" type="number" min="0" max="99" value="18">
+            <br>
+            <label for="Gender">genre</label>
+            <select  id="gender">
+                <option value="homme">homme</option>
+                <option value="femme">femme</option> 
+            </select> <br>
+            <div>
+                <input type="radio" name="type" id="human">
+                <label for="human">human</label>
+
+                <input type="radio" name="type" id="dog">
+                <label for="dog">chien</label>
+
+                <input type="radio" name="type" id="cat">
+                <label for="cat">chat</label>
+            </div>
+            <textarea cols="30" rows="10" placeholder="Entrez votre demande ici" > </textarea> <br>
+            <label><input type="checkbox" /> Accepter les CGV</label> <br>
+            <input type="submit" value="valider"> 
+            <footer>
+                <a href="mailto:fs@gmail.com">Ecrivez moi!</a>
+                <br>
+                <a href="notice.txt" download="nom-du-fichier">Télecharger la notice</a>
+            </footer>
+        </form>
+    </section>
+</body>
+</html>
