@@ -5,7 +5,6 @@
 This project is a beginner-friendly guide to creating a simple web page structure. In this tutorial, we will cover the usage of HTML tags for titles, paragraphs, lists, clickable links, embedded videos, and checkboxes. This serves as a hands-on introduction to building basic web pages using HTML.
 
 ## Table of Contents
-- [Getting Started](#getting-started)
 - [Title Tags](#title-tags)
 - [Paragraph Tags](#paragraph-tags)
 - [Lists](#lists)
@@ -13,13 +12,6 @@ This project is a beginner-friendly guide to creating a simple web page structur
 - [Embedded Videos](#embedded-videos)
 - [Checkboxes](#checkboxes)
 
-## Getting Started
-Clone this repository to your local machine and follow the step-by-step instructions to understand and implement the basics of HTML.
-
-```bash
-git clone https://github.com/your-username/web-page-structure.git
-cd web-page-structure
-```
 
 ## Title Tags
 Learn how to create titles for your web page using HTML heading tags.
@@ -90,7 +82,6 @@ Implement checkboxes in your web page using the HTML `<input>` tag.
 Ce projet est un guide convivial pour les débutants sur la création d'une structure simple de page web. Dans ce tutoriel, nous aborderons l'utilisation des balises HTML pour les titres, les paragraphes, les listes, les liens cliquables, les vidéos intégrées et les cases à cocher. Cela sert d'introduction pratique à la création de pages web de base en utilisant HTML.
 
 ## Table des matières
-- [Commencer](#commencer)
 - [Balises de Titre](#balises-de-titre)
 - [Balises de Paragraphe](#balises-de-paragraphe)
 - [Listes](#listes)
@@ -98,13 +89,6 @@ Ce projet est un guide convivial pour les débutants sur la création d'une stru
 - [Vidéos Intégrées](#vidéos-intégrées)
 - [Cases à Cocher](#cases-à-cocher)
 
-## Commencer
-Clonez ce dépôt sur votre machine locale et suivez les instructions étape par étape pour comprendre et mettre en œuvre les bases d'HTML.
-
-```bash
-git clone https://github.com/votre-nom/utilisation-des-balises-html.git
-cd utilisation-des-balises-html
-```
 
 ## Balises de Titre
 Apprenez à créer des titres pour votre page web en utilisant les balises de titre HTML.
